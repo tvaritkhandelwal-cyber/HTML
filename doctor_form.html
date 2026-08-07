@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+    <title>Doctor Appointment Form</title>
+</head>
+<body>
+    <h2>Appointment Form</h2>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <label>Patient's Name:</label>
+            <input type="text" placeholder="Enter Your Name" required>
+            <br><br>
+            <label>Date Of Birth:</label>
+            <input type="Date" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend> Appointment Details</legend>
+            <label>Select Doctor:</label>
+            <select required>
+                <option>Select Doctor</option>
+                <option>Dr. Sharma</option>
+                <option>Dr. Gupta</option>
+                <option>Dr. Mehta</option>
+                <option>Dr. Singh</option>
+            </select>
+            <br><br>
+            <label>Reason For Visit</label>
+            <input type="text" placeholder="Enter Reason for Visit " required>
+            <br><br>
+            <label>Additional Notes:</label>
+            <br>
+            <textarea cols="40" rows="5" placeholder="Write any additional notes"></textarea>
+            <br><br>
+            <label>Preffered Visit Date:</label>
+            <br>
+            <input type="radio" name="day">Monday
+            <br>
+            <input type="radio" name="day">Tuesday
+            <br>
+            <input type="radio" name="day">Wednesday
+            <br>
+            <input type="radio" name="day">Thursday
+            <br>
+            <input type="radio" name="day">Friday
+            <br>
+            <input type="radio" name="day">Saturday
+        </fieldset>
+        <button type="submit">Book My Appointment</button>
+    </form>
+</body>
+</html>
