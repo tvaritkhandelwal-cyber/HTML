@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <title>Book Donation Form</title>
+</head>
+<body>
+    <h1>Book Donation Form</h1>
+    <form>
+        <fieldset>
+            <legend>Donar Details</legend>
+            <label>Name:</label>
+            <input type="text" required placeholder="Enter your name"><br><br>
+            <label>Age:</label>
+            <input type="number" required placeholder="Enter your age"><br><br>
+            <label>Date Of Donation</label>
+            <input type="date" required>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Book Details</legend>
+            <label>Book Name: </label>
+            <input type="text" required><br><br>
+            <label>Author: </label>
+            <input type="text" required><br><br>
+            <label>Book Genre:</label><br>
+                <input type="checkbox">Fantasy<br>
+                <input type="checkbox">Fiction<br>
+                <input type="checkbox">Sci-Fi<br>
+                <input type="checkbox">Non-Fiction<br>
+                <input type="checkbox">Mystery<br>
+                <input type="checkbox">Romance<br>
+                <input type="checkbox">Thriller<br>
+                <input type="checkbox">Self Help<br>
+                <input type="checkbox">Other<br>
+            <br><br>
+            Page Length: <input type="number" placeholder="Length of the book" required>
+            <br><br>
+            Brief Book Discription: <br>
+            <textarea rows="4" cols="40" placeholder="Write in brief about the book"></textarea>
+            <br><br>
+            <label>Book Condition: </label><br>
+            <input type="radio">New <br>
+            <input type="radio">Old in good condition <br>
+            <input type="radio">Old in bad condition<br>
+            <input type="radio">Used<br>
+            <input type="radio">Other<br><br>
+            <label>Have you read it</label>
+            <select>
+                <option>Select Option </option>
+                <option>Yes</option>
+                <option>No</option>
+                <option>DNF</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preffered Day of Donation</legend>
+                <label>Day:</label><br>
+                <input type="checkbox" >Monday<br>
+                <input type="checkbox" >Tuesday<br>
+                <input type="checkbox" >Wednesday<br>
+                <input type="checkbox" >Thursday<br>
+                <input type="checkbox" >Friday<br>
+                <input type="checkbox" >Saturday<br>
+                <input type="checkbox" >Sunday<br>
+        </fieldset>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
